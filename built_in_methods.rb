@@ -101,6 +101,11 @@ end
 
 
 
-
-
 colors = [ 5, 4, 1, 2, 2, 2, 2]
+
+colorful = []<<colors.select{|n| n > 2}
+
+puts colorful
+
+# the .select method evaluates all elements against an argument and if true adds them to a new array. using the << or append i assigned it to a named known array.
+
