@@ -45,6 +45,16 @@ first_name = "Jeff"
 puts first_name.start_with?("J")
 
 
+name = "wilL"
+puts name.capitalize!
+# the capitalize! method upcases the first character and downcases all others, returns self if any changes, does nothing else
+
+
+location = "Texas"
+puts location.length == 5
+#the length method returns the length of a string returns 5 prints true 5 == 5
+
+
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
