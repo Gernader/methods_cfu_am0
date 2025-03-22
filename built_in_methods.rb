@@ -8,22 +8,27 @@
 # The return value is "hello world"
 "Hello World".downcase
 
+# forces all character to the downcase version of the character in the string. 
 
 "Hello World".include?("Hello")
 
+# bool does string include passed parameter "Hello" evaluates to true
 
 "Hello World".end_with?("Hello")
 
+# bool does string "Hello World" end with parameter "Hello" evaluates to false
 
 "Hello World".end_with?("rld")
 
+# bool does string "Hello World" end with parameter "rld" evaluates to true
 
 12.even?
 
+# bool is int 12 even evaluates to true
 
 18.next
 
-
+# int 18 is bumped to the next int vaue leaving the memory value at 19
 
 # SECTION 2: Calling methods on variables assigned to strings.
 # Declare 2 variables assigned to string objects.
