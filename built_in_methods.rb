@@ -74,14 +74,33 @@ puts age.div(family)
 # the div returns the integer result of dividing self and passed parameter prints 9
 
 
-
-
-
-
-
-
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+
+Speeds = [ 35, 40, 40, 45, 65, 65, 70, 70, 75 ]
+highway_speeds = []
+loop_count = 0
+until Speeds.last <= 65
+
+    temp_int = Speeds.pop
+
+    highway_speeds.insert(0, temp_int)
+
+    puts highway_speeds
+
+    puts loop_count
+    loop_count=loop_count.next
+
+end
+# the .last method checks the value of the last element in the array, so it can have logic run on it. the .pop method removes the last element so it can be manipulated. 
+# the .insert method allows you to place a parameter into an array at any element number you choose.
+
+
+
+
+
+colors = [ 5, 4, 1, 2, 2, 2, 2]
