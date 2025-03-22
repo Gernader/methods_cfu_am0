@@ -52,7 +52,7 @@ puts name.capitalize!
 
 location = "Texas"
 puts location.length == 5
-#the length method returns the length of a string returns 5 prints true 5 == 5
+# the length method returns the length of a string returns 5 prints true 5 == 5
 
 
 
@@ -61,6 +61,22 @@ puts location.length == 5
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+
+
+family = 4
+puts family.*(3)
+# the * returns the product of self and passed parameter prints 12
+
+
+age = 38
+puts age.div(family)
+# the div returns the integer result of dividing self and passed parameter prints 9
+
+
+
+
+
 
 
 
